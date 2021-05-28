@@ -4,7 +4,7 @@ pipeline {
     stage('git') {
       steps {
         dir(path: '/home/shiyanlou/Code') {
-          git(url: 'git@github.com:redkins/test_git.git', branch: 'main', credentialsId: 'f16420fc-050a-4d59-94ff-98a446de6eb5')
+          git(url: 'git@github.com:redkins/test_git.git', branch: 'main', credentialsId: '78bf7cee-01f9-4d71-9e13-f5302d68c02c')
         }
 
       }
